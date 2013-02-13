@@ -474,3 +474,83 @@ Stack trace:
 REQUEST_URI=/manajemen-apartemen/index.php/hubunganAntarPenghuni/admin
 HTTP_REFERER=http://localhost/manajemen-apartemen/index.php/Gedung/admin
 ---
+2013/02/11 16:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Gedung/admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('Gedung/admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xsiscrm/index.php/Gedung/admin
+HTTP_REFERER=http://localhost/xsiscrm/index.php/site/index
+---
+2013/02/11 16:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "candidatAnswer/simulation".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('candidatAnswer/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xsiscrm/index.php/candidatAnswer/simulation
+HTTP_REFERER=http://localhost/xsiscrm/index.php/site/page?view=devtools
+---
+2013/02/12 16:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xsiscrm/index.php/admin/index
+---
+2013/02/12 16:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xsiscrm/index.php/admin/
+---
+2013/02/12 16:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xsiscrm/index.php/user/create
+---
+2013/02/12 16:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\xsiscrm\protected\modules\user\controllers\AdminController.php:160
+Stack trace:
+#0 C:\xampp\htdocs\xsiscrm\protected\modules\user\controllers\AdminController.php(57): AdminController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionView()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin/view')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/xsiscrm/index.php/user/admin/view
+---
+2013/02/12 16:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\xsiscrm\protected\modules\user\controllers\AdminController.php:160
+Stack trace:
+#0 C:\xampp\htdocs\xsiscrm\protected\modules\user\controllers\AdminController.php(57): AdminController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionView()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin/view')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\xsiscrm\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/xsiscrm/index.php/user/admin/view
+---

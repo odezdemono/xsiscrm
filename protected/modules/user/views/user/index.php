@@ -4,7 +4,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1><?php echo UserModule::t("List User"); ?></h1>
+<h1><?php echo 'Daftar - '.UserModule::t("List User"); ?></h1>
 <?php if(UserModule::isAdmin()) {
 	?><ul class="actions">
 	<li><?php echo CHtml::link(UserModule::t('Manage User'),array('/user/admin')); ?></li>

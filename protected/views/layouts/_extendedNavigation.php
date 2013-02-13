@@ -7,7 +7,7 @@ $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Manage Master', 'url'=>'#',
 					'items'=>array(
-						array('label'=>'Gedung', 'url'=>array('/Gedung/admin')),
+						array('label'=>'Company', 'url'=>array('/Company/admin')),
 						array('label'=>'Lantai', 'url'=>array('/Lantai/admin')),
 						array('label'=>'Unit', 'url'=>array('/jenisUnit/admin')),
 						array('label'=>'Kondisi', 'url'=>array('/jenisKondisi/admin')),

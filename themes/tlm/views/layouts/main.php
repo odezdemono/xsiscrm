@@ -74,6 +74,7 @@
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y').' '.Yii::app()->params['companyName']; ?><br/>
 		All Rights Reserved.<br/>
+		<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
