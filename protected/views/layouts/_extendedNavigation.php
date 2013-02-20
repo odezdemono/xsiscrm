@@ -5,21 +5,24 @@ $this->widget('zii.widgets.CMenu',array(
 		array('label'=>'Home', 'url'=>array('/site/index')),
 		array('label'=>'Master', 'url'=>'#',
 			'items'=>array(
-				array('label'=>'Manage Master', 'url'=>'#',
+				array('label'=>'Manage Accounts', 'url'=>'#',
 					'items'=>array(
-						array('label'=>'Company', 'url'=>array('/Company/admin')),
-						array('label'=>'Lantai', 'url'=>array('/Lantai/admin')),
-						array('label'=>'Unit', 'url'=>array('/jenisUnit/admin')),
-						array('label'=>'Kondisi', 'url'=>array('/jenisKondisi/admin')),
-						array('label'=>'Unit Ruangan', 'url'=>array('/unitRuangan/admin')),
-						array('label'=>'Jenis Identitas', 'url'=>array('/jenisIdentitas/admin')),
-						array('label'=>'Hub. Penghuni', 'url'=>array('/jenisHubunganPenghuni/admin')),
-						//array('label'=>'Hub. Antar Penghuni', 'url'=>array('/hubunganAntarPenghuni/admin')),
-						array('label'=>'Penghuni', 'url'=>array('/penghuni/admin')),
-						array('label'=>'Penghuni Unit History', 'url'=>array('/penghuniUnitHistory/admin')),
-						array('label'=>'Karyawan', 'url'=>array('/karyawan/admin')),
-						array('label'=>'Layanan', 'url'=>array('/jenisLayanan/admin')),
-						array('label'=>'Perijinan', 'url'=>array('/jenisPerijinan/admin'))
+						array('label'=>'Company', 'url'=>array('/company/admin')),
+						array('label'=>'Account', 'url'=>array('/account/admin')),
+						array('label'=>'Account Type', 'url'=>array('/accounttype/admin')),
+						array('label'=>'Industry Type', 'url'=>array('/industrytype/admin')),
+						array('label'=>'Reference Type', 'url'=>array('/referencetype/admin')),
+						
+					),
+				),
+				array('label'=>'Manage Projects', 'url'=>'#',
+					'items'=>array(
+						array('label'=>'Project', 'url'=>array('/project/admin')),
+						array('label'=>'Project Contact', 'url'=>array('/projectContact/admin')),
+						array('label'=>'Project Type', 'url'=>array('/projecttype/admin')),
+						array('label'=>'Project Status', 'url'=>array('/projectstatus/admin')),
+						array('label'=>'Technology', 'url'=>array('/technology/admin')),
+						
 					),
 				),
 			),

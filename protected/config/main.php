@@ -21,12 +21,14 @@ return array(
 		'application.modules.rights.*',
 		'application.modules.rights.components.*',
 		'application.extensions.CAdvancedArBehavior',
+		'application.extensions.actions.XSuggestAction',
+		'application.extensions.EchMultiSelect.*',
 	),
 
 	'modules'=>array(
 		'gii'=>array(
 		    'class'=>'system.gii.GiiModule',
-			'password'=>'adminxsis',
+			'password'=>'pass',
 		    // If removed, Gii defaults to localhost only. Edit carefully to taste.
 		    'ipFilters'=>array('127.0.0.1','::1'),
 			'generatorPaths'=>array('application.gii'),

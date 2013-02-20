@@ -42,7 +42,9 @@
 			'links'=>$this->breadcrumbs,
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
-
+		<div class="flash">
+			<?php echo Yii::app()->user->getFlash('succeed');  ?>
+		</div>
 		<?php echo $content; ?>
 
 	<div class="clear"></div>
